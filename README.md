@@ -49,7 +49,7 @@ A configuration file (`myinstall.config.json`) allows for fully customizable out
 
 Install the package globally or locally depending on your needs:
 
-`npm install -g custom-npm-command-package`
+`npm install -g my-install`
 
 ## Usage
 
