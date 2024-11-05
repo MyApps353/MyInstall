@@ -1,0 +1,32 @@
+{
+  "name": "myinstall",
+  "version": "1.0.0",
+  "description": "Enhanced NPM install with custom file updates and version control.",
+  "main": "lib/installer.js",
+  "bin": {
+    "myinstall": "./bin/myinstall.js",
+    "mi": "./bin/myinstall.js"
+  },
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [
+    "npm",
+    "install",
+    "cli",
+    "version control",
+    "automation"
+  ],
+  "author": "MyApps353",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^11.0.0",
+    "inquirer": "^9.2.6",
+    "semver": "^7.5.4",
+    "update-notifier": "^6.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
